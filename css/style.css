@@ -5776,7 +5776,7 @@ body.visible-sidebar{
 
 .project-cats{
   position: relative;
-  padding: 160px 0px 100px;
+  padding: 100px 0px 20px;
 }
 
 .project-cats .upper-row{
@@ -5920,7 +5920,7 @@ body.visible-sidebar{
   position: relative;
   display: block;
   padding-right: 20px;
-  padding-left: 120px;
+  padding-left: 90px;
   min-height: 100px;
 }
 
@@ -7497,7 +7497,7 @@ body.visible-sidebar{
 
 .services-one{
   position: relative;
-  padding: 110px 0px 80px;
+  padding: 45px 0px 30px;
   background-position: left top;
   background-repeat: no-repeat;
 }
@@ -7682,7 +7682,7 @@ body.visible-sidebar{
 
 .building-one{
   position: relative;
-  padding: 110px 0px 100px;
+  padding: 45px 0px 30px;
   border-bottom: 1px solid #000000;
 }
 
