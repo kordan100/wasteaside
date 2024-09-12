@@ -341,6 +341,7 @@ p{
   position: relative;
   line-height: 1.50em;
   margin-bottom: 0px;
+  font-size: medium !important;
 }
 
 .strike-through {
@@ -7527,6 +7528,7 @@ body.visible-sidebar{
 .service-block-one h3 a{
   position: relative;
   color: #000000;
+  font-size: 24px;
 }
 
 .service-block-one h3 span{
