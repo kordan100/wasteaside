@@ -1,8 +1,8 @@
 <?php
 
 // Define some constants
-define( "RECIPIENT_NAME", "John Doe" );
-define( "RECIPIENT_EMAIL", "youremail@emailservice.com" );
+define( "RECIPIENT_NAME", "WasteAside" );
+define( "RECIPIENT_EMAIL", "info@wasteaside.co.za" );
  
 
 // Read the form values
@@ -13,7 +13,8 @@ $senderWebsite = isset( $_POST['website'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA
 $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subject:|Content-Type:)/", "", $_POST['message'] ) : "";
 
 // If all values exist, send the email
-if ( $senderName && $senderEmail && $senderWebsite && $message) {
+if ( $senderName && $senderEmail && $senderWebsite && $message)
+{
   $recipient = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
   $headers = "From: " . $senderName . "";
   $msgBody = " Email:". $senderEmail . "Address: " . $senderWebsite . "Message: " . $message . "";
@@ -23,7 +24,8 @@ if ( $senderName && $senderEmail && $senderWebsite && $message) {
   header('Location: contact.html?message=Successfull');
 }
 
-else{
+else
+{
 	//Set Location After Unsuccesssfull Submission
   	header('Location: contact.html?message=Failed');	
 }
